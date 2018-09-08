@@ -1,10 +1,11 @@
 {
-  "name": "proj_package",
+  "name": "reachandwebpack_package",
   "version": "1.0.0",
   "description": "react js tutorial",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "build:ci": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
